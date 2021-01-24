@@ -7,7 +7,7 @@
 # CERTBOT_DOMAIN
 # CERTBOT_VALIDATION
 
-# ----- script ----- # 
+# ----- script ----- #
 SCRIPT_NAME=$(basename $0)
 SCRIPT_PATH=$(dirname $(readlink -f $0))
 
