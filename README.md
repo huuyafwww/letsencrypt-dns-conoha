@@ -1,5 +1,18 @@
 # letsencrypt-dns-conoha
 
+## Fixed
+
+Thanks [k2snow](https://github.com/k2snow), And [letsencrypt-dns-conoha](https://github.com/k2snow/letsencrypt-dns-conoha) script.
+
+This repository is fixed that's script here.
+
+First, loot at `conoha_id` file.
+That's file supported a select region for conoha api.
+
+Second, `crontab` file.
+That's file is sample for crontab setting.
+I wrote a update rule at every two months.
+
 ## Overview
 Script to get Let's Encrypt Wildcard SSL Certificate using DNS in ConoHa VPS.
 

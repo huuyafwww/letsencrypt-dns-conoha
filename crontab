@@ -1,2 +1,2 @@
-# SSL証明書自動更新
+# Update ssl certificate at every two months.
 0 * */2 * * /usr/bin/certbot renew && /usr/bin/systemctl reload nginx
