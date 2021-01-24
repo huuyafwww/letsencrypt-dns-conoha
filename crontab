@@ -1,2 +1,2 @@
 # Update ssl certificate at every two months.
-0 * */2 * * /usr/bin/certbot renew && /usr/bin/systemctl reload nginx
+0 0 1 */2 * /usr/bin/certbot renew && /usr/bin/systemctl reload nginx
